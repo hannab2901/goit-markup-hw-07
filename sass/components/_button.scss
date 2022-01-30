@@ -1,3 +1,8 @@
+button {
+  cursor: pointer;
+  padding: 6px 22px;
+}
+
 .button {
   font-family: inherit;
   cursor: pointer;
@@ -55,4 +60,29 @@
 .btn-portfolio.current {
   color: #ffffff;
   background: var(--accent-color);
+}
+
+.modal-btn {
+  width: 30px;
+  height: 30px;
+  padding: 0px 0px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-btn:focus svg,
+.modal-btn:hover svg {
+  fill: var(--accent-color);
 }

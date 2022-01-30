@@ -101,7 +101,6 @@
   width: 20px;
   height: 20px;
   fill: #ffffff;
-
   &:hover,
   &:focus {
     background: #2196f3;
@@ -127,6 +126,11 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background: #2196f3;
+  }
 }
 .mail-list {
   margin-left: 93px;

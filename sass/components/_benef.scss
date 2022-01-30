@@ -1,0 +1,21 @@
+.benefits {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.benefits-container {
+  display: flex;
+}
+
+.benefits-container li:not(:last-child) {
+  margin-right: 30px;
+}
+.text {
+  width: 270px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.andr-head {
+  padding-bottom: 10px;
+}

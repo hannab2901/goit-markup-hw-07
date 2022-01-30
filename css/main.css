@@ -106,8 +106,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav:hover,
-.nav:focus {
+.nav:hover, .nav:focus {
   color: var(--accent-color);
 }
 
@@ -160,14 +159,13 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.info:hover svg,
-.info:focus svg {
+.info:hover, .info:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
 
-.info:hover,
-.info:focus {
+.info:hover svg,
+.info:focus svg {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
@@ -196,8 +194,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.adress:hover,
-.adress:focus {
+.adress:hover, .adress:focus {
   color: var(--accent-color);
 }
 
@@ -210,8 +207,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.info-footer:hover,
-.info-footer:focus {
+.info-footer:hover, .info-footer:focus {
   color: var(--accent-color);
 }
 
@@ -235,8 +231,7 @@ img {
   fill: #ffffff;
 }
 
-.ftr-icon:focus,
-.ftr-icon:hover {
+.footer-icon:hover, .footer-icon:focus {
   background: #2196f3;
 }
 
@@ -367,8 +362,7 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-portfolio:hover,
-.btn-portfolio:focus {
+.btn-portfolio:hover, .btn-portfolio:focus {
   color: #ffffff;
   background: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -418,8 +412,7 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn:focus svg,
-.modal-btn:hover svg {
+.modal-btn:hover, .modal-btn:focus {
   fill: var(--accent-color);
 }
 
@@ -592,8 +585,7 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-icon:hover,
-.social-icon:focus {
+.social-icon:hover, .social-icon:focus {
   background-color: var(--accent-color);
 }
 
@@ -645,15 +637,14 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.cln-icon:focus svg,
-.cln-icon:hover svg {
-  fill: var(--accent-color);
-}
-
-.cln-icon:focus,
-.cln-icon:hover {
+.cln-icon:hover, .cln-icon:focus {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
+}
+
+.cln-icon:hover svg,
+.cln-icon:focus svg {
+  fill: var(--accent-color);
 }
 
 .our-clients {

@@ -56,17 +56,19 @@
   transition-property: background-color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-icon:hover,
-.social-icon:focus {
-  background-color: var(--accent-color);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+
+  &:hover svg,
+  &:focus svg {
+    background-color: var(--accent-color);
+    fill: #ffffff;
+  }
 }
 
-.social-icon:hover svg,
-.social-icon:focus svg {
-  background-color: var(--accent-color);
-  fill: #ffffff;
-}
 .social {
   display: flex;
   margin-top: 16px;

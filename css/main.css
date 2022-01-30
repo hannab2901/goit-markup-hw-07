@@ -257,6 +257,10 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.ftr-icon:hover, .ftr-icon:focus {
+  background: #2196f3;
+}
+
 .mail-list {
   margin-left: 93px;
 }
@@ -698,6 +702,11 @@ button {
   overflow: hidden;
 }
 
+.card-project:hover .text-project {
+  transform: translateY(-294px);
+  opacity: 1;
+}
+
 .text-project {
   position: absolute;
   width: 100%;
@@ -711,11 +720,6 @@ button {
   padding: 63px 24px;
   opacity: 0;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.card-project:hover .text-project {
-  transform: translateY(-294px);
-  opacity: 1;
 }
 
 .proff-card {

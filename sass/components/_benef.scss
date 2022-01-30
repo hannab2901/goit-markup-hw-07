@@ -11,8 +11,7 @@
 
 .text {
   width: 270px;
-  font-weight: 400;
-  letter-spacing: 0.03em;
+  @include font($fw: 400, $ls: 0.03em);
 }
 .andr-head {
   padding-bottom: 10px;

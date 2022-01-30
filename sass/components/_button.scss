@@ -25,10 +25,12 @@ button {
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
+
+  & li:not(:last-child) {
+    margin-right: 8px;
+  }
 }
-.portfolio-btn li:not(:last-child) {
-  margin-right: 8px;
-}
+
 .btn-portfolio {
   font-family: inherit;
   cursor: pointer;

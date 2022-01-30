@@ -18,10 +18,7 @@
     url(../img/hero.jpg);
 }
 .main-heading {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
+  @include font($fw: 900, $fs: 44px, $lh: calc(60px / 44px), $ls: 0.06em);
   text-transform: uppercase;
   color: #ffffff;
   width: 696px;

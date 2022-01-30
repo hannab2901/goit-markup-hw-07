@@ -37,11 +37,6 @@ body {
   line-height: 1.71;
 }
 
-button {
-  cursor: pointer;
-  padding: 6px 22px;
-}
-
 img {
   display: block;
 }
@@ -217,6 +212,11 @@ img {
   margin: auto;
 }
 
+button {
+  cursor: pointer;
+  padding: 6px 22px;
+}
+
 .button {
   font-family: inherit;
   cursor: pointer;
@@ -274,6 +274,29 @@ img {
   background: var(--accent-color);
 }
 
+.modal-btn {
+  width: 30px;
+  height: 30px;
+  padding: 0px 0px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-btn:focus svg,
+.modal-btn:hover svg {
+  fill: var(--accent-color);
+}
+
 .benefits {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -290,8 +313,6 @@ img {
 .text {
   width: 270px;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
   letter-spacing: 0.03em;
 }
 
@@ -335,7 +356,6 @@ img {
 
 .job-text {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.1;
   text-align: center;
   letter-spacing: 0.03em;
@@ -360,7 +380,6 @@ img {
 
 .andr-head {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -589,8 +608,6 @@ img {
 .adress {
   text-decoration: none;
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
   transition-property: color;
@@ -605,8 +622,6 @@ img {
 
 .info-footer {
   text-decoration: none;
-  font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition-property: color;
@@ -751,29 +766,6 @@ img {
   border-radius: 4px;
 }
 
-.modal-btn {
-  width: 30px;
-  height: 30px;
-  padding: 0px 0px;
-  background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-btn:focus svg,
-.modal-btn:hover svg {
-  fill: var(--accent-color);
-}
-
 .modal-img {
   width: 11px;
   height: 11px;
@@ -884,7 +876,6 @@ img {
 
 .send-label {
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #757575;
@@ -893,7 +884,6 @@ img {
 
 .send-label a {
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--accent-color);

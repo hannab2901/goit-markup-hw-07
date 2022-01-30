@@ -44,10 +44,7 @@
   height: 100%;
   background: rgba(33, 150, 243, 0.9);
 
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
+  @include font($fw: 400, $fs: 18px, $lh: calc(28px / 18px), $ls: 0.03em);
   color: #ffffff;
   padding: 63px 24px;
 

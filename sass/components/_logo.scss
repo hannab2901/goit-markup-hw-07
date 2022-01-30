@@ -1,10 +1,7 @@
 .logo {
   text-decoration: none;
   font-family: Raleway;
-  font-weight: 700px;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  @include font($fw: 700, $fs: 26px, $lh: calc(31px / 26px), $ls: 0.03em);
   color: var(--accent-color);
   margin-right: 9;
   margin-right: 93px;

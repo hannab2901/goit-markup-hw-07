@@ -1,0 +1,33 @@
+.nav {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+  display: block;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav:hover,
+.nav:focus {
+  color: var(--accent-color);
+}
+.nav.current {
+  color: var(--accent-color);
+  position: relative;
+}
+
+.nav.current::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  top: 44px;
+
+  background: var(--accent-color);
+  border-radius: 2px;
+}

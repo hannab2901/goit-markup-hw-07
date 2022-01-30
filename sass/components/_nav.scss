@@ -1,9 +1,6 @@
 .nav {
   text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  @include font($fw: 500, $fs: 14px, $lh: calc(16px / 16px), $ls: 0.02em);
   color: var(--title-text-color);
   display: block;
 

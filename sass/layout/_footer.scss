@@ -3,39 +3,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.adress {
-  text-decoration: none;
-  font-style: normal;
-  letter-spacing: 0.03em;
-  color: #ffffff;
 
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.adress:hover,
-.adress:focus {
-  color: var(--accent-color);
-}
-.info-footer {
-  text-decoration: none;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.info-footer:hover,
-.info-footer:focus {
-  color: var(--accent-color);
-}
-.footer-list {
-  margin-top: 9px;
-}
-.adres-pading {
-  margin-top: 20px;
-}
 .footer-title {
   font-weight: 700;
   font-size: 14px;
@@ -45,91 +13,6 @@
   color: #ffffff;
 }
 
-.footer-social {
-  width: 206px;
-  padding-left: 0px;
-  margin-left: 70px;
-}
 .footer-flex {
   display: flex;
-}
-.footer-icon {
-  width: 20px;
-  height: 20px;
-  fill: #ffffff;
-}
-.ftr-icon:focus,
-.ftr-icon:hover {
-  background: #2196f3;
-}
-.ftr-social {
-  display: flex;
-}
-.ftr-social li:not(:first-child) {
-  margin-left: 10px;
-}
-.ftr-icon {
-  display: block;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  padding: 12px;
-  background: rgba(255, 255, 255, 0.1);
-  margin-top: 20px;
-  border: 1px;
-
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.mail-list {
-  margin-left: 93px;
-}
-.mail-flex {
-  display: flex;
-  margin-top: 20px;
-}
-.footer-input {
-  width: 358px;
-  height: 50px;
-
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
-  background-color: #2f303a;
-  outline: none;
-
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-
-  padding: 15px 16px;
-  margin-right: 12px;
-}
-.footer-bm {
-  width: 200px;
-  height: 50px;
-
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: 0px;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-
-  align-items: center;
-  text-align: center;
-  display: flex;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  padding: 0;
-  padding-left: 29px;
-}
-.mail-ist {
-  height: 24px;
-  width: 24px;
-  margin-left: 10px;
 }

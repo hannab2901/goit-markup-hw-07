@@ -259,6 +259,7 @@ img {
 
 .ftr-icon:hover, .ftr-icon:focus {
   background: #2196f3;
+  outline: none;
 }
 
 .mail-list {
@@ -591,6 +592,7 @@ button {
 
 .social-icon:hover, .social-icon:focus {
   background-color: var(--accent-color);
+  outline: none;
 }
 
 .social-icon:hover svg,
@@ -644,6 +646,7 @@ button {
 .cln-icon:hover, .cln-icon:focus {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
+  outline: none;
 }
 
 .cln-icon:hover svg,

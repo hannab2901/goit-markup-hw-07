@@ -43,11 +43,8 @@
   align-items: center;
 }
 .modal-text {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 0.87;
+  @include font($fw: 700, $fs: 20px, $lh: calc(23px / 20px), $ls: 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
   color: #212121;
 
   margin-bottom: 12px;

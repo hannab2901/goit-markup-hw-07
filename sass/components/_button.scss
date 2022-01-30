@@ -6,10 +6,7 @@ button {
 .button {
   font-family: inherit;
   cursor: pointer;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
+  @include font($fw: 700, $fs: 16px, $lh: calc(30px / 16px), $ls: 0.06em);
   color: #ffffff;
   background: var(--accent-color);
   margin-top: 30px;
@@ -34,11 +31,8 @@ button {
 .btn-portfolio {
   font-family: inherit;
   cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
+  @include font($fw: 500, $fs: 16px, $lh: calc(26px / 16px), $ls: 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
   background: #f5f4fa;
   border-radius: 4px;
@@ -73,15 +67,11 @@ button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 0px;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+  @include font($fw: 700, $fs: 16px, $lh: calc(30px / 16px), $ls: 0.06em);
 
   align-items: center;
   text-align: center;
   display: flex;
-  letter-spacing: 0.06em;
   color: #ffffff;
   padding: 0;
   padding-left: 29px;
@@ -120,13 +110,9 @@ button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 0px;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+  @include font($fw: 700, $fs: 16px, $lh: calc(30px / 16px), $ls: 0.06em);
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
   color: #ffffff;
 
   margin-top: 30px;

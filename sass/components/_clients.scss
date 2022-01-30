@@ -38,7 +38,7 @@
 
 .our-clients {
   display: flex;
-}
-.our-clients li:not(:last-child) {
-  margin-right: 30px;
+  & li:not(:last-child) {
+    margin-right: 30px;
+  }
 }

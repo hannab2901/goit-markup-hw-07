@@ -20,6 +20,7 @@
   text-decoration: none;
   list-style: none;
   @include font($fw: 500, $fs: 14px, $lh: calc(16px / 14px), $ls: 0.02em);
+
   color: var(--primary-text-color);
 
   transition-property: color, fill;

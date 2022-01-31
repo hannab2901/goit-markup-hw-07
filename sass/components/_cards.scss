@@ -18,13 +18,13 @@
   margin-bottom: 0px;
 }
 .name-project {
-  @include font($fw: 700, $fs: 18px, $lh: calc(36px / 16px), $ls: 0.06em);
+  @include font($fw: 700, $fs: 18px, $lh: 2.25, $ls: 0.06em);
   color: var(--title-text-color);
   margin-bottom: 4px;
 }
 
 .name {
-  @include font($fs: 16px, $lh: calc(30px / 16px), $ls: 0.03em);
+  @include font($fw: 400, $fs: 16px, $lh: 1.88, $ls: 0.03em);
   color: var(--primary-text-color);
 }
 .card-project {
@@ -44,7 +44,7 @@
   height: 100%;
   background: rgba(33, 150, 243, 0.9);
 
-  @include font($fw: 400, $fs: 18px, $lh: calc(28px / 18px), $ls: 0.03em);
+  @include font($fw: 400, $fs: 18px, $lh: 1.56, $ls: 0.03em);
   color: #ffffff;
   padding: 63px 24px;
 

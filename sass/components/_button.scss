@@ -6,7 +6,7 @@ button {
 .button {
   font-family: inherit;
   cursor: pointer;
-  @include font($fw: 700, $fs: 16px, $lh: calc(30px / 16px), $ls: 0.06em);
+  @include font($fw: 700, $fs: 16px, $lh: 1.88, $ls: 0.06em);
   color: #ffffff;
   background: var(--accent-color);
   margin-top: 30px;
@@ -31,7 +31,7 @@ button {
 .btn-portfolio {
   font-family: inherit;
   cursor: pointer;
-  @include font($fw: 500, $fs: 16px, $lh: calc(26px / 16px), $ls: 0.03em);
+  @include font($fw: 500, $fs: 16px, $lh: 1.62, $ls: 0.03em);
   text-align: center;
   color: var(--title-text-color);
   background: #f5f4fa;
@@ -67,7 +67,7 @@ button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 0px;
-  @include font($fw: 700, $fs: 16px, $lh: calc(30px / 16px), $ls: 0.06em);
+  @include font($fw: 700, $fs: 16px, $lh: 1.88, $ls: 0.06em);
 
   align-items: center;
   text-align: center;
@@ -124,7 +124,7 @@ button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 0px;
-  @include font($fw: 700, $fs: 16px, $lh: calc(30px / 16px), $ls: 0.06em);
+  @include font($fw: 700, $fs: 16px, $lh: 1.88, $ls: 0.06em);
   align-items: center;
   text-align: center;
   color: #ffffff;

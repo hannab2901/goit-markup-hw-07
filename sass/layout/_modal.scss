@@ -33,7 +33,7 @@
   align-items: center;
 }
 .modal-text {
-  @include font($fw: 700, $fs: 20px, $lh: calc(23px / 20px), $ls: 0.03em);
+  @include font($fw: 700, $fs: 20px, $lh: 1.15, $ls: 0.03em);
   text-align: center;
   color: #212121;
 
@@ -63,11 +63,11 @@
     width: 448px;
     padding: 12px 16px;
     height: 120px;
-    @include font($fw: 400, $fs: 12px, $lh: calc(14px / 12px), $ls: 0.01em);
+    @include font($fw: 400, $fs: 12px, $lh: 1.17, $ls: 0.01em);
     color: rgba(117, 117, 117, 0.5);
   }
   & label {
-    @include font($fw: 400, $fs: 12px, $lh: calc(14px / 12px), $ls: 0.01em);
+    @include font($fw: 400, $fs: 12px, $lh: 1.17, $ls: 0.01em);
     color: #757575;
   }
 }
@@ -113,11 +113,11 @@
   }
 }
 .send-label {
-  @include font($fw: 400, $lh: calc(24px / 14px), $ls: 0.03em);
+  @include font($fw: 400, $fs: 14px, $lh: 1.71, $ls: 0.03em);
   color: #757575;
   margin-left: 9px;
   & a {
-    @include font($fw: 400, $lh: calc(24px / 14px), $ls: 0.03em);
+    @include font($fw: 400, $fs: 14px, $lh: 1.71, $ls: 0.03em);
     color: var(--accent-color);
   }
 }

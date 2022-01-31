@@ -2,7 +2,7 @@
   padding-bottom: 94px;
 }
 .heading {
-  @include font($fw: 700, $fs: 36px, $lh: calc(42px / 36px), $ls: 0.03em);
+  @include font($fw: 700, $fs: 36px, $lh: 1.17, $ls: 0.03em);
   text-align: center;
   color: var(--title-text-color);
   margin-bottom: 50px;

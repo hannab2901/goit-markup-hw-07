@@ -1,4 +1,4 @@
-.nav {
+.navigation__list {
   text-decoration: none;
   @include font($fw: 500, $fs: 14px, $lh: 1, $ls: 0.02em);
 
@@ -15,7 +15,7 @@
   }
 }
 
-.nav.current {
+.navigation__list.current {
   color: var(--accent-color);
   position: relative;
   &::after {

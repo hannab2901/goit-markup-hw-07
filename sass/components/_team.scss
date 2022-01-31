@@ -11,13 +11,13 @@
 }
 
 .team {
-  @include font($fw: 500, $fs: 16px, $lh: calc(19px / 16px), $ls: 0.03em);
+  @include font($fw: 500, $fs: 16px, $lh: 1.19, $ls: 0.03em);
   text-align: center;
   color: var(--title-text-color);
   margin-bottom: 10px;
 }
 .team-prof {
-  @include font($fs: 16px, $lh: calc(19px / 16px), $ls: 0.03em);
+  @include font($fw: 400, $fs: 16px, $lh: 1.19, $ls: 0.03em);
   text-align: center;
   color: var(--primary-text-color);
 }

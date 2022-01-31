@@ -18,7 +18,7 @@
     url(../img/hero.jpg);
 }
 .main-heading {
-  @include font($fw: 900, $fs: 44px, $lh: calc(60px / 44px), $ls: 0.06em);
+  @include font($fw: 900, $fs: 44px, $lh: 1.36, $ls: 0.06em);
   text-transform: uppercase;
   color: #ffffff;
   width: 696px;
